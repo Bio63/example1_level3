@@ -1,0 +1,63 @@
+h1{
+    color:black;
+    font-weight: 800;
+    font-family: 'Londrina Shadow',cursive;
+    font-size: 100px;
+    text-align: center;
+    background-color: goldenrod;
+}
+h2{
+        color: black;
+        font-weight: 600;
+        font-family: 'Montserrat',cursive;
+        font-size: 40px;
+        text-align: center;
+        margin: 0 0 70px 0;
+    
+}
+body{
+   font-family: helvetica, sans-serif;
+   background: gray;
+   max-width: 1200px;
+   color: azure;
+   background-color: #FFF099;
+
+}
+div{
+    height:600px; 
+    background-size: cover;
+    margin:0px auto;
+    border-radius:15px;
+    position: relative;
+} 
+.first{
+    background:url(../Images/firstcourse_.jpg);
+    background-size: cover;
+}
+.second{
+    background:url(../Images/secondcourse_.jpg);
+    background-size: cover;
+}
+.third{
+    background:url(../Images/dessertcourse_.jpg);
+    background-size: cover;
+}
+p{
+    color: rgba (255,255,255,1);
+    background: gray;
+    background:linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,.5));
+    background:-webkit-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,.5));
+    background:-moz-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,.5));
+    padding:10px;
+    text-align: justify;
+    line-height: 28px;
+    position: absolute;
+    bottom:0px;
+    margin:0px;
+}
+.price{
+    float: right;
+    
+}
+       
+
